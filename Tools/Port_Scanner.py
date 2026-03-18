@@ -1,3 +1,16 @@
+######################################################################################################
+# Port Scanner by Spencer Rich
+# This is a basic TCP port scanner I built with help from an online article. The purpose
+# of this project was primarily to familiarize myself with network scanning and refresh
+# my python knowledge. Note that this software uses threading to increase performance - modify
+# max_workers to increase or decrease the upper bound of the concurrent threads. Additionally, 
+# TIMEOUT can be changed to determine how long the program waits before moving on to the next port.
+# For simplicity and speed, only open ports are printed to output.
+#
+# Should you choose to use this scanner, be sure to follow your network's acceptable use policies
+# and legal guidelines.
+######################################################################################################
+
 # Import Python modules
 import sys
 import socket
